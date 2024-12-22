@@ -1,0 +1,303 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #F9EAD9;
+    width:full;
+    height: 92px;
+  
+}
+ h1{
+   font-size: 50px;
+   color: #FFA500;
+   font-weight: 400;
+}
+h2{
+    font-size: 50px;
+   
+    font-weight: 600; 
+}
+span{
+    font-size:20px;
+    margin-left:25px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    gap:40px;
+    
+}
+
+.btn-appointment {
+    background-color: #FFA500;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    width:200px ;
+    height: 50px;
+    display: flex;
+    gap:15px;
+    font-size:14px;
+    font-weight: 400;
+}
+
+.btn-appointment img{
+  width:24px;
+ height:25px;
+ margin-left: 2px;
+ margin-bottom: 25px;
+ margin-top: 0px;
+ color:white;
+} 
+
+.btn-help {
+    background-color: #F9EAD9;
+    border: 2px solid #FFA500;
+    /* color: #FFA500; */
+    width:120px ;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+  gap: 12px;
+ padding:15px;
+ font-size: 15px;
+   
+}
+
+.btn-help img{
+    width:20px;
+    height:20px;
+}
+
+/* Banner Section */
+
+
+.slide1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width:Full;
+    height:580px;
+  
+    background-color:#B5C1A6;
+}
+.content{
+    margin-left: 60px;
+}
+.kk1{
+
+    font-size:30px;
+    color: #333;
+    font-weight:bold;
+}
+.content h1 {
+    font-size:55px;
+    color: #333;
+    font-weight:750;
+}
+
+.content p {
+    font-size: 27px;
+    color: #555;
+    margin-top: 10px;
+}
+.kk2{
+    display: flex;
+}
+
+.btn-buy {
+    background-color: #FFA500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 280px;
+    height:55px;
+    font-size: 20px;
+    
+}
+
+.image img {
+    width: 470px;
+    height: 550px;
+    margin-right: 50px; /* Adds space from the right side */
+   
+    margin-top: 40px;  /* This will ensure the image is aligned with the content */
+    margin-bottom: 0px;
+    
+  
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .slide1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image img {
+        width: 80%;
+        /* margin-top: 20px; */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+
+.slide2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width:Full;
+    height:280px;
+  
+    /* background-color:#B5C1A6; */
+}
+.slide4{
+height:500px;
+
+}
+.four img{
+  
+}
+.second21{
+    /* display: flex; */
+   margin-right: 30px;
+
+   
+}
+.second h1{
+    font-size:40px;
+    font-weight: 550;
+    
+}
+.second2 select{
+  width:220px;
+  height:50px;
+  margin-right: 180px;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 18px;
+  font-size: 17px;
+
+}
+.second3 button{
+     width:220px;
+  height:50px;
+  margin-right: 200px;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 18px;
+  font-size: 16px;
+  background-color: #FFA500;
+  border: none;
+
+}
+.second1 img{
+    height:75px;
+    width:75px;
+}
+.second1{
+    display: flex;
+    color:#FFA500;
+    
+
+}
+.second1 h2{
+    font-size: 30px;
+    margin-top: 28px;
+}
+.second h1{
+    color: #333;
+}
+.slide3
+{
+    height:750px;
+    width:1400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:#ffa60015;
+    border-radius: 30px;
+}
+.third0{
+    
+}
+.third0 h1{
+    font-size: 35px;
+    color: #333;
+    font-weight: 700;
+    margin-left:395px ;
+    margin-right: 50px;
+    margin-top: 20px;
+   
+}
+.third0 h2{
+    font-size: 35px;
+    color: #333;
+    font-weight: 700;
+    margin-left:350px ;
+    margin-right: 50px;
+}
+.third2 h2{
+    font-size: 25px;
+    color: #333;
+    font-weight: 350;
+    margin-left:350px ;
+    margin-right: 50px;
+}
